@@ -175,12 +175,13 @@ const shuffle = <T>(arr: T[]): T[] => {
 // Get them from: console.firebase.google.com → Project Settings → Your Apps
 // ═══════════════════════════════════════════════
 const FB_CONFIG = {
-  apiKey: 'PASTE_YOUR_apiKey_HERE',
-  authDomain: 'PASTE_YOUR_authDomain_HERE',
-  projectId: 'PASTE_YOUR_projectId_HERE',
-  storageBucket: 'PASTE_YOUR_storageBucket_HERE',
-  messagingSenderId: 'PASTE_YOUR_messagingSenderId_HERE',
-  appId: 'PASTE_YOUR_appId_HERE',
+  apiKey: "AIzaSyAHA3rraAWPB5wmAQB1-No_9ePXeBs7N7A",
+  authDomain: "ddcet-test.firebaseapp.com",
+  projectId: "ddcet-test",
+  storageBucket: "ddcet-test.firebasestorage.app",
+  messagingSenderId: "539537663642",
+  appId: "1:539537663642:web:21f9c19c7232f9cd15a123",
+  measurementId: "G-EY6T33VJ35"
 };
 const FB_CONFIGURED = !FB_CONFIG.apiKey.includes('PASTE');
 
